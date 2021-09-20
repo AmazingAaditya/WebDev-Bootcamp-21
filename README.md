@@ -2,6 +2,6 @@
 Github repo for my tasks and projects as part of Web Dev Bootcamp 2021 by Colt Steele on Udemy.
 
 1- Fancy Button
-
-
-![alt text](https://github.com/AmazingAaditya/WebDev-Bootcamp-21/blob/main/images/button_default.JPG)
+2- Photography Portfolio
+3- Responsive Nav bar
+4- Price Panel 
