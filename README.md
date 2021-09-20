@@ -3,6 +3,5 @@ Github repo for my tasks and projects as part of Web Dev Bootcamp 2021 by Colt S
 
 1- Fancy Button
 
-![button](https://github.com/AmazingAaditya/WebDev-Bootcamp-21/blob/main/button_default.jpg?raw=true)
-
+![button](https://github.com/AmazingAaditya/WebDev-Bootcamp-21/blob/main/button_default.JPG?raw=true)
 
