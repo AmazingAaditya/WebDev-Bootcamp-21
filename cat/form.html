@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #1abc9c;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+@font-face {
+    font-family: "Delicious";
+    src: local("Delicious_BoldItalic.otf"),
+    url(./Delicious-BoldItalic.otf) format("opentype");
+    }
+
+
+.title{
+    font-size: 20px;
+    margin-bottom:5px;
+}
+
+form{
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    border: 2px solid green;
+    background-color: #b4ffd3;
+    margin: 35%;
+    margin-top: 10px;
+    border-radius: 20px;
+    height:60%;
+}
+
+
+.input{
+    border: 2px solid green;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    margin-bottom: 10px;
+   }
+
+.info > label{
+    border: 2px solid green;
+    padding:3px;
+    text-align: right;
+    width: 41%;
+   }
+
+.info > input, .info > select{
+    width: 58%;
+   }
+
+form > textarea{
+    width:95%;
+   }
+
+button{
+    background-color: #003300;
+    margin-top:0;
+    margin-bottom: 10px;
+    height: 20px;
+    width: 50%;
+    
+    color:white;
+    border-radius:2px;
+   }
+
+
+</style>
+</head>
+<body>
+<div class="navbar">
+    <a href="food.html">Home</a>
+    <a href="tt.html">Timetable</a>
+    <a href="form.html">Contact us</a>
+    <a href="form.html" class="right">BOOK TICKET</a>
+</div>
+
+<centre>
+    <div>
+
+        <form>
+            <div class="title">Contact us</div>
+
+            <div class="info">
+                <label for="name">Name</label>
+                <input type="text" id="name" class="input">
+            </div>
+
+            <div class="info">
+                <label for="email">Email</label>
+                <input type="text" id="email" class="input">
+            </div>
+
+            <div class="info">
+                <label for="gender">Gender</label>
+                <select id="gender" name="gender" class="input">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+
+           
+
+            <div class="info">
+                <label for="pno">Mobile Number</label>
+                <input type="text" id="pno" class="input">
+            </div>
+            <textarea placeholder="Remarks" class="input"></textarea>
+            <br>
+            <button>Submit</button>
+
+</body>
+</html>
